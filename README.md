@@ -270,8 +270,9 @@ To improve query performance, we carried out the following optimization process:
 - **Graphical Performance Comparison**
     - A graph illustrating the comparison between the initial query execution time and the optimized query execution time after index creation.
     The index significantly reduced the query execution time in this test environment, while planning time showed a small variation.
-      ![Performance before Index](./spotify_explain_before_index.png)
-	![Performance After Index](./spotify_explain_after_index.png)
+![Performance Before Index](./spotify_performance_before_index.png)
+
+![Performance After Index](./spotify_performance_after_index.png)
     
    
 This experiment demonstrates how indexing can improve query performance for queries that filter data using frequently searched columns.
